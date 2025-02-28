@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+
+<!-- Menu Button (Hamburger/Close) -->
+<div class="menu-button" id="menuButton">
+    <svg id="menuIcon" width="40" height="40" viewBox="0 0 100 100">
+        <rect y="20" width="80" height="10" fill="white"></rect>
+        <rect y="45" width="80" height="10" fill="white"></rect>
+        <rect y="70" width="80" height="10" fill="white"></rect>
+    </svg>
+</div>
+
+
+<!-- Slide-in Navbar -->
+<div class="navbar" id="navbar">
+    <a href="index.html">Home</a>
+    <a href="about/about.html">About</a>
+    <a href="portfolio/portfolio.html">Portfolio</a>
+    <a href="contact/contact.html">Contact</a>
+    <a href="blog/blog.html">Blog</a>
+</div>
+
+<!-- Hero Section with Background Video -->
+<div class="hero">
+    <video autoplay muted loop>
+        <source src="background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="hero-particles"></div>
+    <script src="particles.js"></script>
+
+    <div class="content">
+        <h1>Hello!</h1>
+        <p>Make yourself at home.</p>
+        <h2><br>I am a <span id="changing-text"></span></h2>
+    </div>
+    <div class="scroll-down">
+        <span id="typing-text"></span>
+    </div>
+    <div>
+       
+    </div>
+
+</div>
+
+
+<!-- Sections -->
+<div class="section" id="about">
+    <h2>Who Am I?</h2>
+    <p>Hello! I'm <Unknown individual> passionate about Music, Design, and a lot more.</p>
+    <div class="profile-pic-container">
+        <img src="profile-pic.jpg" alt="My Profile Picture">
+        
+    </div>
+</div>
+
+<section id="portfolio">
+    <h2 class="section-title">My Best Projects</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="portfolio/project1.jpg" alt="Project 1">
+            <div class="portfolio-info">
+                <h3>Project One</h3>
+                <p>A deep dive into soundscapes and visuals.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="portfolio/project2.jpg" alt="Project 2">
+            <div class="portfolio-info">
+                <h3>Project Two</h3>
+                <p>Blending design and music into one artform.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="portfolio/project3.jpg" alt="Project 3">
+            <div class="portfolio-info">
+                <h3>Project Three</h3>
+                <p>A bold fusion of tech and creativity.</p>
+            </div>
+        </div>
+
+        <!-- Add more project items if needed -->
+    </div>
+</section>
+
+
+<section id="blogs">
+    <h2 class="section-title">Latest Blogs</h2>
+    <div class="blog-grid">
+        <div class="blog-item">
+            <img src="images/blog1.jpg" alt="Blog 1">
+            <div class="blog-info">
+                <h3>Exploring Visual Soundscapes</h3>
+                <p>March 5, 2025</p>
+                <a href="blog/posts/post1.html"">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img src="images/blog2.jpg" alt="Blog 2">
+            <div class="blog-info">
+                <h3>Design Meets Music</h3>
+                <p>February 20, 2025</p>
+                <a href="blog/posts/post1.html"">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img src="images/blog3.jpg" alt="Blog 3">
+            <div class="blog-info">
+                <h3>Creative Process Breakdown</h3>
+                <p>January 15, 2025</p>
+                <a href="blog/posts/post1.html">Read More</a>
+            </div>
+        </div>
+
+        <!-- Add more blog items if needed -->
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Made with ❤️ | &copy; 2025 GloriousBastard. All rights reserved.<br>Video by Freepik</p>
+    <a href="http://www.freepik.com">Profile Designed by dgim-studio / Freepik</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
